@@ -1,0 +1,53 @@
+body {
+  background-color: azure;
+  padding: 20px;
+  width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+b {
+  font-weight: bold;
+}
+
+ul {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+ol {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  list-style: decimal;
+  list-style-position: inside;
+}
+
+li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
