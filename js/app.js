@@ -77,3 +77,8 @@ if (answerFive === 'no' || answerFive === 'n') {
   // console.log(invalidStatement);
   alert(invalidStatement);
 }
+
+// final message to the users
+let lastMessage = `This is the end of the game, ${userName}. Thanks for playing!`;
+// console.log(lastMessage);
+alert(lastMessage);
