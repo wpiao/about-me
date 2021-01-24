@@ -1,4 +1,4 @@
-# LAB - 02, 03, 04
+# LAB - 02, 03, 04, 05b
 
 ## About Me, with a guessing game
 
@@ -8,10 +8,13 @@ It is basic one page static html shows my bio, education, job experience, and my
 ### Lab 03 - 1/16/2021
 Built off of lab-02. Add two additionl questions by using new data type - array and while/for loop. I Made code more DRY by putting all of the questions, answers, and responses to the first five yes/no questions into arrays and used for/while loop to iterate each question. So I didn't have to write similar codes five times. 
 
-### Lab 04 - 1/20/2021
+### Lab 04 - 1/20/2021 - Wenhao Piao - Navigator, Marie Marcos - Driver
 In lab-04, we refactor the base code of lab-03, we moved the logic for all questions into functions.
 
-### Author: Wenhao Piao - Navigator, Marie Marcos - Driver
+### Lab 05b - 1/23/2021
+Final polishing, cleaned the code (remove all console.log), deployed the app to GitHub Pages. 
+
+### Author: Wenhao Piao
 
 
 ### Links and Resources
