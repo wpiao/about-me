@@ -26,17 +26,13 @@ function questionOneToFive() {
   ];
 
   for (let i = 0; i < questions.length; i++) {
-    // console.log(questions[i]);
     let userInput = prompt(questions[i]).toLowerCase();
     if (userInput === myAnswers[i][0] || userInput === myAnswers[i][1]) {
-      // console.log(answerStatements[0]);
       numberOfCorrectAnswer++;
       alert(answerStatements[0]);
     } else if (userInput === myAnswers[i][2] || userInput === myAnswers[i][3]) {
-      // console.log(answerStatements[1]);
       alert(answerStatements[1]);
     } else {
-      // console.log(answerStatements[2]);
       alert(answerStatements[2]);
     }
   }
@@ -47,7 +43,6 @@ questionOneToFive();
 // question #6
 function questionSix() {
   let numberInMind = Math.floor(Math.random() * 16) + 1;
-  console.log(numberInMind);
   for (let chances = 4; chances > 0; chances--) {
     let answerSix = prompt(`Question 6: Guess a number (1-16) that in my mind. You have ${chances} chances left!`);
     if (parseInt(answerSix) === numberInMind) {
